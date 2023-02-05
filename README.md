@@ -14,6 +14,8 @@ If you want to re-estimate the H matrix, follow steps 1-2, otherwise (using H ma
 
 3, run the next code block to get the H matrix
 
+(UPDATE 2/4): there are now multiple methods to generate the H matrix, you can use whichever one you like, but I would recommand using the one with the minimum condition number to get the most precise projection. You can also try finding the H matrix yourself using another method and use the given code of finding condition number to determine the goodness of fit
+
 4, now we have the homography matrix H, input any pixel point within bound of the lidar image as X, Y, and run the final code box
 
 5, will get the homogeneous and cartesian coordiante estimate of the point chosen on the camera image
