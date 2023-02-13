@@ -1,5 +1,7 @@
 lidar-image-alignment
 
+(UPDATE 02/12/23): Uploaded 3D lidar to image projection code, the 6 pair-input svd method works, the more "efficient" 3 pair-input methods doesn't currently work.
+
 (UPDATE 02/04/23): There are now multiple methods to generate the H matrix, you can use whichever one you like, but I would recommand using the one with the minimum condition number to get the most precise projection. You can also try finding the H matrix yourself using another method and use the given code of finding condition number to determine the goodness of fit
 
 2D-2D alignment homography rough draft version, 01/30/23
