@@ -2,6 +2,9 @@ lidar-image-alignment
 
 (UPDATE 03/02/23): Uploaded the successfully functional 3D->2D alignment code using epipolar constraint and Essential matrix, could find R and t using minimum of 9 points, previous code using homography method proven WRONG since it doesn't provide proper R and t values
 
+
+Homography Stuff below, unusable in lidar-camera calibration
+
 (UPDATE 02/12/23): Uploaded 3D lidar to image projection code, the 6 pair-input svd method works, the more "efficient" 3 pair-input methods doesn't currently work.
 
 (UPDATE 02/04/23): There are now multiple methods to generate the H matrix, you can use whichever one you like, but I would recommand using the one with the minimum condition number to get the most precise projection. You can also try finding the H matrix yourself using another method and use the given code of finding condition number to determine the goodness of fit
