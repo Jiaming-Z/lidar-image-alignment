@@ -1,5 +1,7 @@
 lidar-image-alignment
 
+(UPDATE 03/09/23): Uploaded updatd file with newly improved method that only require 6 points, also eliminate R,t ambiguity and add calculation for reprojection error
+
 (UPDATE 03/02/23): Uploaded the successfully functional 3D->2D alignment code using epipolar constraint and Essential matrix, could find R and t using minimum of 9 points, previous code using homography method proven WRONG since it doesn't provide proper R and t values
 
 
